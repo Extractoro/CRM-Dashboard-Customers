@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./styles/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <main class="main">
+      <aside class="aside">
+        <div class="aside__logo">
+          <svg class="aside__logo-setting" width="37" height="37">
+            <use href="./images/logo.svg#aside__logo-setting" />
+          </svg>
+          <p class="aside__logo-title">Dashboard <span class="aside__logo-version">v.01</span></p>
+        </div>
+        <div class="navigation">
+          <a href="#" class="navigation__dashboard">
+            <svg class="navigation__dashboard-icon" width="24" height="24">
+                <use href="./images/navigation/navigation.svg#navigation__dashboard" />
+            </svg>
+            <p class="navigation__dashboard-title">Dashboard</p>
+          </a>
+          <a href="#" class="navigation__product">
+            <svg class="navigation__product-icon" width="24" height="24">
+                <use href="./images/navigation/navigation.svg#navigation__product" />
+            </svg>
+            <p class="navigation__product-title">Product</p>
+            <svg class="navigation__icon-arrow" width="10" height="10">
+                <use href="./images/navigation/navigation.svg#arrow" />
+            </svg>
+          </a>
+          <a href="#" class="navigation__customers navigation__customers-active">
+            <svg class="navigation__customers-icon" width="24" height="24">
+                <use href="./images/navigation/navigation.svg#navigation__customers" />
+            </svg>
+            <p class="navigation__customers-title">Customers</p>
+            <svg class="navigation__icon-arrow navigation__customers__icon-arrow" width="10" height="10">
+                <use href="./images/navigation/navigation.svg#arrow" />
+            </svg>
+          </a>
+          <a href="#" class="navigation__income">
+            <svg class="navigation__income-icon" width="24" height="24">
+                <use href="./images/navigation/navigation.svg#navigation__income" />
+            </svg>
+            <p class="navigation__income-title">Income</p>
+            <svg class="navigation__icon-arrow" width="10" height="10">
+                <use href="./images/navigation/navigation.svg#arrow" />
+            </svg>
+          </a>
+          <a href="#" class="navigation__promote">
+            <svg class="navigation__promote-icon" width="24" height="24">
+                <use href="./images/navigation/navigation.svg#navigation__promote" />
+            </svg>
+            <p class="navigation__promote-title">Promote</p>
+            <svg class="navigation__icon-arrow" width="10" height="10">
+                <use href="./images/navigation/navigation.svg#arrow" />
+            </svg>
+          </a>
+          <a href="#" class="navigation__help">
+            <svg class="navigation__help-icon" width="24" height="24">
+                <use href="./images/navigation/navigation.svg#navigation__help" />
+            </svg>
+            <p class="navigation__help-title">Help</p>
+            <svg class="navigation__icon-arrow" width="10" height="10">
+                <use href="./images/navigation/navigation.svg#arrow" />
+            </svg>
+          </a>
+        </div>
+        <div class="profile">
+          <img src="./images/profile.png" alt="Profile photo" class="profile__photo" />
+          <div class="profile__info">
+            <h5 class="profile__info-name">Evano</h5>
+            <p class="profile__info-role">Project Manager</p>
+          </div>
+        </div>
+      </aside>
+      <section class="section">
+        <h3 class="section__title">Hello Evano &#x1F44B,</h3>
+        <div class="section__table">
+            <div class="section__table-container">
+                <div>
+                    <h3 class="section__table-title">All Customers</h3>
+                    <p class="section__table-suptitle">Active Members</p>
+                </div>
+                <label class="section__table-label">
+                    <svg class="section__table-search-icon" width="24" height="24">
+                        <use href="./images/search.svg#search"></use>
+                    </svg>
+                    <input type="text" class="section__table-search" placeholder="Search">
+                </label>
+            </div>
+            <div class="section__table-wrapper">
+                <table class="section__table-table">
+                <tr class="section__table-table-name">
+                    <th>Customer Name</th>
+                    <th>Company</th>
+                    <th>Photo Number</th>
+                    <th>Email</th>
+                    <th>Country</th>
+                    <th>Status</th>
+                </tr>
+                <tr class="section__table-info">
+                    <td>Jane Cooper</td>
+                    <td>Microsoft</td>
+                    <td>(225) 555-0118</td>
+                    <td>jane@microsoft.com</td>
+                    <td>United States</td>
+                    <td class="section__table-status section__table-status-active">Active</td>
+                </tr>
+                <tr class="section__table-info">
+                    <td>Floyd Miles</td>
+                    <td>Yahoo</td>
+                    <td>(205) 555-0100</td>
+                    <td>floyd@yahoo.com</td>
+                    <td>Kiribati</td>
+                    <td class="section__table-status section__table-status-inactive">Inactive</td>
+                </tr>
+                <tr class="section__table-info">
+                    <td>Ronald Richards</td>
+                    <td>Adobe</td>
+                    <td>(302) 555-0107</td>
+                    <td>ronald@adobe.com</td>
+                    <td>Israel</td>
+                    <td class="section__table-status section__table-status-inactive">Inactive</td>
+                </tr>
+                <tr class="section__table-info">
+                    <td>Marvin McKinney</td>
+                    <td>Tesla</td>
+                    <td>(252) 555-0126</td>
+                    <td>marvin@tesla.com</td>
+                    <td>Iran</td>
+                    <td class="section__table-status section__table-status-active">Active</td>
+                </tr>
+                 <tr class="section__table-info">
+                    <td>Jerome Bell</td>
+                    <td>Google</td>
+                    <td>(629) 555-0129</td>
+                    <td>jerome@google.com</td>
+                    <td>Réunion</td>
+                    <td class="section__table-status section__table-status-active">Active</td>
+                </tr>
+                <tr class="section__table-info">
+                    <td>Kathryn Murphy</td>
+                    <td>Microsoft</td>
+                    <td>(406) 555-0120</td>
+                    <td>kathryn@microsoft.com</td>
+                    <td>Curaçao</td>
+                    <td class="section__table-status section__table-status-active">Active</td>
+                </tr>
+                <tr class="section__table-info">
+                    <td>Jacob Jones</td>
+                    <td>Yahoo</td>
+                    <td>(208) 555-0112</td>
+                    <td>jacob@yahoo.com</td>
+                    <td>Brazil</td>
+                    <td class="section__table-status section__table-status-active">Active</td>
+                </tr>
+                <tr class="section__table-info">
+                    <td>Kristin Watson</td>
+                    <td>Facebook</td>
+                    <td>(704) 555-0127</td>
+                    <td>kristin@facebook.com</td>
+                    <td>Åland Islands</td>
+                    <td class="section__table-status section__table-status-inactive">Inactive</td>
+                </tr>
+            </table>
+            </div>
+            
+            <div class="section__table__pagination-container">
+                <p class="section__table__pagination-title">Showing data 1 to 8 of  256K entries</p>
+                <div class="section__table-pagination">
+                    <a href="#" class="section__table__pagination-item">
+                        <svg class="section__table__pagination-icon" width="8" height="12">
+                            <use href="./images/pagination/pagination.svg#left-pagination-arrow"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="section__table__pagination-item section__table__pagination-active">1</a>
+                    <a href="#" class="section__table__pagination-item">2</a>
+                    <a href="#" class="section__table__pagination-item">3</a>
+                    <a href="#" class="section__table__pagination-item">4</a>
+                    <a href="#" class="section__table__pagination-dots">...</a>
+                    <a href="#" class="section__table__pagination-item">40</a>
+                    <a href="#" class="section__table__pagination-item">
+                        <svg class="section__table__pagination-icon" width="8" height="12">
+                            <use href="./images/pagination/pagination.svg#right-pagination-arrow"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
