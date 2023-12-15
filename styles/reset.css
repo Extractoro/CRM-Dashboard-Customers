@@ -87,6 +87,10 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+html,
+body {
+  overflow-x: hidden;
+}
 article,
 aside,
 details,
